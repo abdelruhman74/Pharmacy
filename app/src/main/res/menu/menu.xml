@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/current_orders"
+        android:icon="@drawable/orders"
+        android:title="Current Order"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/accepted_orders"
+        android:icon="@drawable/ic_baseline_check_circle_24"
+        android:title="Accepted"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/orders_history"
+        android:icon="@drawable/orders_history"
+        android:title="History"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/news"
+        android:title="News"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/more"
+        android:title="More.."
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_more_horiz_24"/>
+
+
+
+</menu>
